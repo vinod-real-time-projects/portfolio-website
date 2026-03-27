@@ -1,0 +1,25 @@
+.footer {
+  padding: 20px 40px;
+  border-top: 1px solid rgba(108, 99, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 900;
+  color: #FFD700;
+  letter-spacing: -0.5px;
+}
+
+.logo span {
+  font-weight: 100;
+  color: rgba(238, 234, 255, 0.4);
+}
+
+.copy {
+  font-size: 11px;
+  color: rgba(238, 234, 255, 0.25);
+  letter-spacing: 0.3px;
+}

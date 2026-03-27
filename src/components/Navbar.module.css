@@ -1,0 +1,86 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  border-bottom: 1px solid rgba(108, 99, 255, 0.15);
+  background: rgba(13, 10, 34, 0.97);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoBars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.lb {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  background: #FFD700;
+}
+
+.lb2 {
+  margin-left: 3px;
+  opacity: 0.45;
+}
+
+.logoDivider {
+  width: 1px;
+  height: 24px;
+  background: rgba(255, 215, 0, 0.2);
+}
+
+.logoName {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #FFD700;
+}
+
+.logoName span {
+  font-weight: 100;
+  color: #eeeaff;
+}
+
+.navLinks {
+  display: flex;
+  gap: 28px;
+}
+
+.navLinks a {
+  font-size: 13px;
+  color: rgba(238, 234, 255, 0.55);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navLinks a:hover {
+  color: #FFD700;
+}
+
+.navCta {
+  background: #FFD700;
+  color: #0d0a22;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.navCta:hover {
+  opacity: 0.9;
+}

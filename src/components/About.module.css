@@ -1,0 +1,133 @@
+.section {
+  padding: 52px 40px;
+  border-top: 1px solid rgba(108, 99, 255, 0.1);
+}
+
+.tag {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #6C63FF;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #eeeaff;
+  margin-bottom: 28px;
+}
+
+.title em {
+  color: #FFD700;
+  font-style: normal;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.avatarRing {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.avatarInner {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: rgba(108, 99, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: #FFD700;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 900;
+  color: #eeeaff;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+
+.role {
+  font-size: 13px;
+  color: #9B94FF;
+  margin-bottom: 14px;
+  letter-spacing: 0.3px;
+}
+
+.bio {
+  font-size: 13px;
+  color: rgba(238, 234, 255, 0.5);
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  font-size: 11px;
+  color: #9B94FF;
+  background: rgba(108, 99, 255, 0.12);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoRow {
+  padding: 14px 16px;
+  background: rgba(108, 99, 255, 0.05);
+  border: 1px solid rgba(108, 99, 255, 0.1);
+  border-radius: 10px;
+}
+
+.infoLabel {
+  font-size: 10px;
+  color: rgba(238, 234, 255, 0.35);
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+
+.infoVal {
+  font-size: 13px;
+  color: #eeeaff;
+  font-weight: 500;
+}
+
+.highlighted {
+  color: #6C63FF;
+}
+
+.infoLink {
+  font-size: 13px;
+  color: #FFD700;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.infoLink:hover {
+  text-decoration: underline;
+}

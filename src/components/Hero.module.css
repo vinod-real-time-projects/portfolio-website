@@ -1,0 +1,127 @@
+.hero {
+  padding: 70px 40px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.orb1 {
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 400px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.orb2 {
+  position: absolute;
+  left: -60px;
+  bottom: -60px;
+  width: 300px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(108, 99, 255, 0.12);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 11px;
+  color: #9B94FF;
+  letter-spacing: 0.5px;
+  margin-bottom: 22px;
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6C63FF;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
+
+.title em {
+  color: #FFD700;
+  font-style: normal;
+}
+
+.sub {
+  font-size: 15px;
+  color: rgba(238, 234, 255, 0.5);
+  line-height: 1.7;
+  max-width: 460px;
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.btns {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.btnPrimary {
+  background: #FFD700;
+  color: #0d0a22;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 26px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: #eeeaff;
+  font-size: 13px;
+  padding: 12px 22px;
+  border-radius: 9px;
+  border: 1px solid rgba(238, 234, 255, 0.18);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.btnSecondary:hover {
+  border-color: rgba(238, 234, 255, 0.4);
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+.statNum {
+  font-size: 28px;
+  font-weight: 900;
+  color: #FFD700;
+  letter-spacing: -1px;
+}
+
+.statLabel {
+  font-size: 11px;
+  color: rgba(238, 234, 255, 0.38);
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}

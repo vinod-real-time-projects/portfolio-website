@@ -1,0 +1,72 @@
+.section {
+  padding: 52px 40px;
+  border-top: 1px solid rgba(108, 99, 255, 0.1);
+}
+
+.card {
+  background: rgba(108, 99, 255, 0.06);
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: 18px;
+  padding: 36px 40px;
+  text-align: center;
+}
+
+.tag {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #6C63FF;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #eeeaff;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.title em {
+  color: #FFD700;
+  font-style: normal;
+}
+
+.sub {
+  font-size: 14px;
+  color: rgba(238, 234, 255, 0.4);
+  margin-bottom: 28px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btnEmail {
+  background: #FFD700;
+  color: #0d0a22;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 26px;
+  border-radius: 9px;
+  transition: opacity 0.2s;
+}
+
+.btnEmail:hover {
+  opacity: 0.9;
+}
+
+.btnLinkedIn {
+  background: transparent;
+  color: #eeeaff;
+  font-size: 13px;
+  padding: 12px 22px;
+  border-radius: 9px;
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  transition: border-color 0.2s;
+}
+
+.btnLinkedIn:hover {
+  border-color: rgba(108, 99, 255, 0.6);
+}
